@@ -5,7 +5,7 @@ A sleek, modern, and fully responsive portfolio template built with **React**, *
 Ideally suited for developers, designers, and data professionals who want to showcase their work with a premium aesthetic.
 
  > [!NOTE] 
- > **Design & Template by Mark Daniels Mbaziira**
+ > **Design & Template by MCraft**
  > If you find this template useful, please consider supporting the original author!
  > 
  > [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/markdanielsmcraft)
@@ -62,7 +62,7 @@ The project uses Tailwind CSS. You can customize colors and fonts in `src/index.
 ## License
 
 This project is open source.
-**Design Credit**: Mark Daniels Mbaziira.
+**Design Credit**: MCraft.
 
 ## Support
 

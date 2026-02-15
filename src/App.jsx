@@ -589,10 +589,11 @@ const App = () => {
                                                 href={config.footer.buyMeACoffee}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="flex items-center gap-3 bg-white/5 hover:bg-[#FFDD00] hover:text-black text-slate-300 px-8 py-4 rounded-2xl font-bold text-lg border border-white/10 hover:border-[#FFDD00] transition-all group active:scale-95"
+                                                className="flex items-center gap-3 bg-gradient-to-r from-yellow-500/10 to-orange-500/10 hover:from-yellow-500/20 hover:to-orange-500/20 text-yellow-200/80 hover:text-yellow-200 px-8 py-4 rounded-2xl font-bold text-lg border border-yellow-500/20 hover:border-yellow-500/40 transition-all group active:scale-95 backdrop-blur-md relative overflow-hidden"
                                             >
-                                                <Coffee size={20} className="group-hover:animate-bounce" />
-                                                <span>Buy me a coffee</span>
+                                                <div className="absolute inset-0 bg-yellow-500/5 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+                                                <Coffee size={20} className="group-hover:rotate-12 transition-transform relative z-10" />
+                                                <span className="relative z-10">Buy me a coffee</span>
                                             </a>
                                         </Magnetic>
                                     )}
@@ -600,7 +601,7 @@ const App = () => {
 
                                 <div className="bg-slate-900/50 border border-white/5 rounded-2xl p-6 max-w-2xl mx-auto backdrop-blur-sm mb-16 hover:border-white/10 transition-colors">
                                     <p className="text-sm text-slate-500 italic">
-                                        "Template design by Mark Daniels Mbaziira"
+                                        "Template design by <span className="text-slate-400 font-semibold">MCraft</span>"
                                     </p>
                                 </div>
 
