@@ -599,10 +599,21 @@ const App = () => {
                                     )}
                                 </div>
 
-                                <div className="bg-slate-900/50 border border-white/5 rounded-2xl p-6 max-w-2xl mx-auto backdrop-blur-sm mb-16 hover:border-white/10 transition-colors">
+                                <div className="flex flex-col md:flex-row justify-center items-center gap-6 bg-slate-900/50 border border-white/5 rounded-2xl p-6 max-w-2xl mx-auto backdrop-blur-sm mb-16 hover:border-white/10 transition-colors">
                                     <p className="text-sm text-slate-500 italic">
-                                        "Template design by <span className="text-slate-400 font-semibold">MCraft</span>"
+                                        "Template design by <a href="https://mcraftportfolio.vercel.app" target="_blank" rel="noopener noreferrer" className="text-slate-400 font-semibold hover:text-blue-400 transition-colors">MCraft</a>"
                                     </p>
+                                    <div className="h-px w-12 bg-white/10 md:h-8 md:w-px" />
+                                    <Magnetic>
+                                        <a
+                                            href="https://buymeacoffee.com/markdanielsmcraft"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center gap-2 text-xs font-bold bg-yellow-500/10 text-yellow-200 px-4 py-2 rounded-lg border border-yellow-500/20 hover:bg-yellow-500/20 hover:border-yellow-500/40 transition-all"
+                                        >
+                                            <Coffee size={14} /> Buy MCraft a coffee
+                                        </a>
+                                    </Magnetic>
                                 </div>
 
                                 <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-600 border-t border-white/5 pt-8">

@@ -23,8 +23,8 @@ Ideally suited for developers, designers, and data professionals who want to sho
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/reponame.git
-cd reponame
+git clone https://github.com/MarkDanielsMCraft/portfolio-template.git
+cd portfolio-template
 ```
 
 ### 2. Install Dependencies
@@ -59,10 +59,20 @@ Replace the project images in `src/config.js` with your own URLs or import local
 
 The project uses Tailwind CSS. You can customize colors and fonts in `src/index.css` or `tailwind.config.js` (if added, or via Vite config).
 
+## Deployment
+
+This template is ready to deploy on **Vercel** or **Netlify**.
+
+1.  Push your customized repository to GitHub.
+2.  Import the project into Vercel/Netlify.
+3.  The build settings will be automatically detected (Framework: Vite, Build Command: `npm run build`, Output Directory: `dist`).
+
 ## License
 
 This project is open source.
+
 **Design Credit**: MCraft.
+*Please keep the footer credit to "MCraft" as a token of appreciation.*
 
 ## Support
 
